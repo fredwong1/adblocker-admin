@@ -17,5 +17,3 @@ Pi-hole[®](https://pi-hole.net/trademark-rules-and-brand-guidelines/)'s Web int
 - **Insightful**: use the query log, audit log, or long-term stats to gain insight into your networks activity
 
 ---
-
-<img src="https://pi-hole.github.io/graphics/Badges/browserstack-badge.png" height="80"><br>
