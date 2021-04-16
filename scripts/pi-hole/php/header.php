@@ -491,7 +491,7 @@ if($auth) {
                   </ul>
                 </li>-->
                 <!-- Toggle -->
-                <!--<li id="pihole-disable" class="treeview"<?php if ($pistatus == "0") { ?> hidden<?php } ?>>
+                <li id="pihole-disable" class="treeview"<?php if ($pistatus == "0") { ?> hidden<?php } ?>>
                   <a href="#">
                     <span class="pull-right-container">
                       <i class="fa fa-angle-left pull-right"></i>
@@ -533,7 +533,7 @@ if($auth) {
                         <span id="flip-status-enable"></span>
                       </span>
                     </a>
-                </li>-->
+                </li>
                 <!-- Tools -->
                 <li class="treeview<?php if (in_array($scriptname, array("groups-adlists.php", "gravity.php", "queryads.php", "auditlog.php", "taillog.php", "taillog-FTL.php", "debug.php", "network.php"))){ ?> active<?php } ?>">
                   <a href="#">
@@ -592,7 +592,7 @@ if($auth) {
                         </a>
                     </li>-->
                   </ul>
-                </li>-->
+                </li>
                 <!-- Settings -->
                 <li<?php if($scriptname === "settings.php"){ ?> class="active"<?php } ?>>
                     <a href="settings.php">
